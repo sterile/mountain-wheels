@@ -14,21 +14,58 @@
 
 
 /* Structural Styles */
+background-color: rgba(173, 189, 227, 1);
 
+/* Why the heck does this need to be here twice to work? something is seriously wrong lol */
+
+body {
+    background-color: rgba(227, 210, 173, 1);
+    font-family: 'Century Gothic', sans-serif;
+}
+
+body {
+    background-color: rgba(227, 210, 173, 1);
+    font-family: 'Century Gothic', sans-serif;
+}
+
+footer {
+    background-color: rgba(208, 184, 109, 1);
+    padding: 5px 0;
+}
 
 
 /* Heading Styles */
 
-
+h1,
+h2 {
+    font-style: normal;
+}
 
 /* Navigation Styles */
 
+nav > ul {
+    list-style: none;
+    line-height: 2em;
+    font-size: 0.9em;
+}
 
+a {
+    color: rgb(43, 59, 125);
+}
 
+a:active {
+    color: rgb(212, 35, 35);
+    font-size: 10em;
+}
 
 /* Article Styles */
 
-
+address {
+    font-size: 0.9em;
+    font-style: normal;
+    text-align: center;
+    padding: 10px 0;
+}
 
 
 /* Aside Styles */

@@ -83,6 +83,14 @@ address {
     font-variant-caps: all-small-caps;
 }
 
+h2:nth-of-type(odd) {
+    color: rgba(79, 91, 40, 1);
+}
+
+h2:nth-of-type(even) {
+    color: rgba(81, 95, 175, 1);
+}
+
 /* Aside Styles */
 
 #tour_itinerary h1 {
